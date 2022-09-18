@@ -1,0 +1,18 @@
+table {
+	margin-top: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th {padding: 5px;}
+
+tr:first-child {background-color:#5DADE2;}
+
+tr:nth-child(n+2) {background-color: #CCC;}
+
+tr:nth-child(2n+3) {background-color: #FFF;}
